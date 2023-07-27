@@ -1,0 +1,33 @@
+The first number that is not repeated in the array
+
+input:
+Array = [1,2,7,5,8,1,2]
+
+output:
+7
+
+________________________________________________________________________________
+
+Qustion_1: Example about input 2 value from user in same time  
+
+# Take input from user
+num1, num2 = input("Enter two numbers separated by a space: ").split()
+
+# Convert input values to integers
+num1 = int(num1)
+num2 = int(num2)
+
+# Print the sum of the two numbers
+print("The sum of", num1, "and", num2, "is", num1 + num2)
+________________________________________________________________________________
+
+Qustion_2: Simple example for defult value in python 
+
+def greet(name, greeting="Hello"):
+    print(greeting, name)
+
+greet("Alice")           # Output: Hello Alice
+greet("Bob", "Hi there") # Output: Hi there Bob
+
+_______________________________________________________________________________
+
